@@ -1,5 +1,27 @@
 # Paper Rock Scissors Exercise
 
+This repository implements the Paper Rock Scissors exercise according to the original instructions copied below.
+
+I initially wrote a quick implementation in `bash`, see [bash-prs.sh](bash-prs.sh), then the OO implementation in Java.
+
+## Building
+
+To unit test and build:
+
+    mvn clean package
+
+To run the game:
+
+    java -jar target/paper-rock-scissors-1.0.0-with-dependencies.jar
+
+Or:
+
+    ./java-prs.sh
+
+---
+
+# Original instructions
+
 The following is a small exercise to get an idea of your coding and design skills. We would like you to develop a simple interactive game of [Paper Rock Scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors)
 
 It's intentionally not an algorithmically complex problem, so we're looking more at modelling and structure. We are trying to get a feel for how you code in a professional setting.
