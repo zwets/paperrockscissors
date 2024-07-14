@@ -2,7 +2,7 @@
 
 This repository implements the Paper Rock Scissors exercise according to the original instructions copied below.
 
-I initially wrote a quick implementation in `bash`, see [bash-prs.sh](bash-prs.sh), then the OO implementation in Java.
+I initially wrote a quick implementation in `bash`, see [bash-prs.sh](bash-prs.sh), then the proper implementation in Java.
 
 ## Building
 
@@ -12,11 +12,13 @@ To unit test and build:
 
 To run the game:
 
-    java -jar target/paper-rock-scissors-1.0.0-with-dependencies.jar
+    java -jar target/paper-rock-scissors-1.0.0.jar
 
-Or:
+## Design Notes
 
-    ./java-prs.sh
+See the the JavaDoc in various classes.  This was a fun exercise, even if at this scale I had to force the OO design in here and there. :-)
+
+![design abstraction evolution curve](design-abstraction-curve.jpg)
 
 ---
 
