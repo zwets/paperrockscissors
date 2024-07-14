@@ -21,7 +21,7 @@ public class Main {
 		Game game = new Game(human, computer);
 		game.play();
 		
-		System.out.println("\nFinal score: you won %d, I won %d, we drew %d."
-				.formatted(human.getWins(), human.getLosses(), human.getDraws()));
+		System.out.println("\nFinal score: We played %d rounds, of which you won %d, I won %d, we drew %d."
+				.formatted(human.getRoundsPlayed(), human.getWins(), human.getLosses(), human.getDraws()));
 	}
 }
